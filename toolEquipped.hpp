@@ -3,13 +3,6 @@
 #include "src/Chef.hpp"
 #include "src/Values.hpp"
 
-  if (chef->name == "达浪") {              // 朋克魔术帽
-        skill->abilityBuff.boil += 20;              // 煮类售价+20
-        skill->materialBuff.fish += 20; // 鱼类售价+20%
-        skill->materialBuff.meat += -15; // 鱼类售价-15%
-        chef->tool = NO_TOOL;                // 不允许装备其他厨具
-    }
-
 // 关于技法：
 // 例：skill->ability.add(30);     // 全技法+30
 // 例：skill->ability.bake += 150; // 烤技法+150,
